@@ -1,0 +1,14 @@
+CARA MENJALANKAN (Windows / VS Code)
+
+1. Ekstrak zip ini, buka folder "kuliah-tugas1" di VS Code
+   (pastikan folder ini langsung berisi package.json dan src).
+2. Buka terminal VS Code (Ctrl+`) lalu jalankan, satu per satu:
+
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   npm install
+   npx expo start -c
+
+   (Baris pertama hanya perlu di PowerShell. Di Command Prompt lewati.)
+3. Scan QR dengan aplikasi Expo Go (SDK 58) di HP.
+   Laptop dan HP harus satu Wi-Fi. Kalau diblokir: npx expo start --tunnel
+4. Lihat versi web di browser: npx expo start --web

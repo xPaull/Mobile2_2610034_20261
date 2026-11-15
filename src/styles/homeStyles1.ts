@@ -1,0 +1,96 @@
+import { StyleSheet } from "react-native";
+
+export const homeStyles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: "#F8FAFC",
+  },
+  container: {
+    flex: 1,
+    padding: 20,
+    justifyContent: "space-between",
+  },
+  contentArea: {
+    gap: 16,
+  },
+  welcomeCard: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 18,
+    padding: 20,
+    borderWidth: 1,
+    borderColor: "#E2E8F0",
+    shadowColor: "#0F172A",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.05,
+    shadowRadius: 12,
+    elevation: 2,
+  },
+  statusBadge: {
+    alignSelf: "flex-start",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6,
+    backgroundColor: "#ECFDF5",
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 999,
+    marginBottom: 12,
+  },
+  statusBadgeText: {
+    fontSize: 11.5,
+    fontWeight: "700",
+    color: "#059669",
+  },
+  greetingTitle: {
+    fontSize: 20,
+    fontWeight: "800",
+    color: "#0F172A",
+  },
+  greetingEmail: {
+    fontSize: 13.5,
+    color: "#2563EB",
+    fontWeight: "600",
+    marginTop: 4,
+  },
+  greetingDesc: {
+    fontSize: 13,
+    color: "#64748B",
+    lineHeight: 19,
+    marginTop: 10,
+  },
+  infoCard: {
+    backgroundColor: "#EFF6FF",
+    borderRadius: 16,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: "#DBEAFE",
+  },
+  infoTitle: {
+    fontSize: 13.5,
+    fontWeight: "700",
+    color: "#1E40AF",
+    marginBottom: 6,
+  },
+  infoItem: {
+    fontSize: 12.5,
+    color: "#334155",
+    lineHeight: 20,
+  },
+  logoutButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 8,
+    backgroundColor: "#FEF2F2",
+    borderWidth: 1,
+    borderColor: "#FECACA",
+    borderRadius: 14,
+    height: 50,
+    marginBottom: 8,
+  },
+  logoutButtonText: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#DC2626",
+  },
+});
